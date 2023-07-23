@@ -14,13 +14,18 @@ public class Brace
 {
     public static bool ValidBraces(string braces)
     {
+        if (braces.Length == 0)
+        {
+            return false;
+        }
+
         while (braces.Contains("()") || braces.Contains("[]") || braces.Contains("{}"))
         {
             braces = braces.Replace("()", "");
             braces = braces.Replace("[]", "");
             braces = braces.Replace("{}", "");
         }
-         
+
         return braces.Length == 0;
     }
 }

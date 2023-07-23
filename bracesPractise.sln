@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bracesPractise", "bracesPractise\bracesPractise.csproj", "{1C8FD894-CF51-4C06-B05E-F106250653BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bracesPractise", "bracesPractise\bracesPractise.csproj", "{1C8FD894-CF51-4C06-B05E-F106250653BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BracePractise2", "BracePractise2\BracePractise2.csproj", "{EFD3E635-E7C8-4ED4-970B-4C78BF8EAE4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BracePractise2", "BracePractise2\BracePractise2.csproj", "{EFD3E635-E7C8-4ED4-970B-4C78BF8EAE4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BracePractise3", "BracePractise3\BracePractise3.csproj", "{9823EE04-D8AA-4DDE-B159-979C3134B7C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BracePractise3", "BracePractise3\BracePractise3.csproj", "{9823EE04-D8AA-4DDE-B159-979C3134B7C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BracePractise4", "BracePractise4\BracePractise4.csproj", "{AD7E9DFC-DF4D-464C-9902-008FAFF3C956}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BracePractise4", "BracePractise4\BracePractise4.csproj", "{AD7E9DFC-DF4D-464C-9902-008FAFF3C956}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BracePractise5", "BracePractise5\BracePractise5.csproj", "{C4789A95-93B5-40DC-B9F0-31B32852A6CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainBracePractise", "BracePractise5\MainBracePractise.csproj", "{C4789A95-93B5-40DC-B9F0-31B32852A6CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mate", "Hasans\Mate.csproj", "{FC05271D-9BE7-41AD-B281-698BBF87AB5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{C4789A95-93B5-40DC-B9F0-31B32852A6CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4789A95-93B5-40DC-B9F0-31B32852A6CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4789A95-93B5-40DC-B9F0-31B32852A6CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC05271D-9BE7-41AD-B281-698BBF87AB5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC05271D-9BE7-41AD-B281-698BBF87AB5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC05271D-9BE7-41AD-B281-698BBF87AB5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC05271D-9BE7-41AD-B281-698BBF87AB5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
